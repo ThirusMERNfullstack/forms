@@ -1,0 +1,20 @@
+body{
+    background-image:url("images.jpg");
+    background-size: 1500px 650px;
+}
+
+.button{
+    display:inline-block;
+    padding: 7 18;
+    font-weight: bold;
+    
+    font-size: 14;
+    cursor:pointer;
+    border-radius: 34px;
+    background-color: aqua;
+    color: rgb(70, 8, 68);
+}
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

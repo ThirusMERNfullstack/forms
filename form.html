@@ -1,0 +1,57 @@
+<html>
+    <head>
+       <title>BANK FORM</title>
+       <link rel="stylesheet" href="forms.css";/>
+    </head>
+    <body><br><br>
+
+       <h3> <center>BANK ACCOUNT CREATION FORM</center> </h3>
+       <br><br>
+        <br>
+<center>
+         <form>
+            <label for="name">Full Name :</label>
+            <input type="text" id="name" name="name" pattern="(?=.*[A-Z])(?=.*[A-Z]){3,}" required/>
+            <br><br>
+
+            <label for="pass" >Password : </label>
+            <input type="password" id="pass" name="pass"required/>
+            <br><br>
+
+            
+            <label for="name">Father's Name :</label>
+            <input type="text" id="name" name="name" required/>
+            <br><br>
+
+            
+            <label for="name">Mother's Name :</label>
+            <input type="text" id="name" name="name" required/>
+            <br><br>
+
+            <label for="number">Aadhar Number :</label>
+            <input type="text" id="number" name="number" pattern="(?=.*[0-9]){12}"required/>
+           <br><br>
+            
+           <label for="eet">Date Of Birth : <input type="date" id="eet" name="eet">
+            <br><br>
+
+
+            <label for="email">Email : </label>
+            <input type="text" id="email" name="email" pattern="(?=.*[a-z])(?=.*[0-9])+@+(?=.*[a-z])" required/>
+            <br><br>
+
+            
+            <label for="number">Mobile Number :</label>
+            <input type="text" id="number" name="number" pattern="[0-9]{10}" required/>
+            <br><br><br>
+
+
+            <button class="button">Register</button>
+
+
+
+        </form>
+    </center>
+    
+    </body>
+    </html>
